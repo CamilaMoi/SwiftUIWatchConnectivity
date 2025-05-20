@@ -466,7 +466,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWatchConnectivity WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUIWatchConnectivity WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,7 +490,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWatchConnectivity WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUIWatchConnectivity WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				IBSC_MODULE = SwiftUIWatchConnectivity_WatchKit_Extension;
 				INFOPLIST_FILE = "SwiftUIWatchConnectivity WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgaafary.SwiftUIWatchConnectivity.watchkitapp;
@@ -536,7 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				IBSC_MODULE = SwiftUIWatchConnectivity_WatchKit_Extension;
 				INFOPLIST_FILE = "SwiftUIWatchConnectivity WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgaafary.SwiftUIWatchConnectivity.watchkitapp;
@@ -557,7 +557,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWatchConnectivity/Preview Content\"";
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWatchConnectivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -580,7 +580,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWatchConnectivity/Preview Content\"";
-				DEVELOPMENT_TEAM = 79KCMPKE2A;
+				DEVELOPMENT_TEAM = 8358TUU5VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWatchConnectivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;

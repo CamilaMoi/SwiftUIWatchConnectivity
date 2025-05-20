@@ -12,9 +12,9 @@ import WatchConnectivity
 final class Counter: ObservableObject {
     var session: WCSession
     let delegate: WCSessionDelegate
-    let subject = PassthroughSubject<Int, Never>()
+    let subject = PassthroughSubject<String, Never>()
     
-    @Published private(set) var count: Int = 0
+    @Published private(set) var plant: String = "tomate"
     
     init(session: WCSession = .default) {
         self.delegate = SessionDelegater(countSubject: subject)
@@ -24,19 +24,19 @@ final class Counter: ObservableObject {
         
         subject
             .receive(on: DispatchQueue.main)
-            .assign(to: &$count)
+            .assign(to: &$plant)
     }
     
     func increment() {
-        count += 1
-        session.sendMessage(["count": count], replyHandler: nil) { error in
+        plant = "tomatudooo"
+        session.sendMessage(["plant": plant], replyHandler: nil) { error in
             print(error.localizedDescription)
         }
     }
     
     func decrement() {
-        count -= 1
-        session.sendMessage(["count": count], replyHandler: nil) { error in
+        plant = "menos um tomate"
+        session.sendMessage(["plant": plant], replyHandler: nil) { error in
             print(error.localizedDescription)
         }
     }

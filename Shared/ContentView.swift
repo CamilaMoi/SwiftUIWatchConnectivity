@@ -9,7 +9,7 @@ import SwiftUI
 import WatchConnectivity
 
 struct ContentView: View {
-    @StateObject var counter = Counter()
+    @StateObject var plantaview = Counter()
     
     var labelStyle: some LabelStyle {
         #if os(watchOS)
@@ -21,16 +21,16 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("\(counter.count)")
+            Text("\(plantaview.plant)")
                 .font(.largeTitle)
             
             HStack {
-                Button(action: counter.decrement) {
+                Button(action: plantaview.decrement) {
                     Label("Decrement", systemImage: "minus.circle")
                 }
                 .padding()
                 
-                Button(action: counter.increment) {
+                Button(action: plantaview.increment) {
                     Label("Increment", systemImage: "plus.circle.fill")
                 }
                 .padding()
